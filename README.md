@@ -1,24 +1,20 @@
-# LastWave-Website-
 <div align="center">
 
-<img src="lastwave_logo.png" alt="LastWave Logo" width="120" height="120" style="border-radius: 50%;" />
+<img src="https://raw.githubusercontent.com/Clash-Projects/LastWave-native/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="LastWave Logo" width="120" height="120" style="border-radius: 50%;" />
 
-# LastWave
+# LastWave Website
 
-### High-Resolution Lossless Audio Streaming & Native Music Player for Android
+### Official Web Portal & Interactive Documentation for LastWave
 
 <p align="center">
-  <a href="https://github.com/Clash-Projects/LastWave-native/releases">
-    <img src="https://img.shields.io/badge/Platform-Android_8.0+-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=1a1a1a" alt="Platform" />
+  <a href="https://github.com/dekuiuto-code/LastWave-Website-">
+    <img src="https://img.shields.io/badge/Platform-Web_/_HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a1a" alt="Platform" />
+  </a>
+  <a href="https://github.com/Clash-Projects/LastWave-native">
+    <img src="https://img.shields.io/badge/App-LastWave_Native-00E5FF?style=for-the-badge&logo=android&logoColor=white&labelColor=1a1a1a" alt="LastWave Native" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Audio-24--bit_%2F_192kHz_FLAC-00E5FF?style=for-the-badge&logo=flac&logoColor=white&labelColor=1a1a1a" alt="Hi-Res Lossless FLAC" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Language-Kotlin_%26_C++-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=1a1a1a" alt="Kotlin & C++" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/UI-Material_3_Expressive-C6F100?style=for-the-badge&labelColor=1a1a1a" alt="Material 3 Expressive" />
+    <img src="https://img.shields.io/badge/License-GPL_v3.0-3DDC84?style=for-the-badge&labelColor=1a1a1a" alt="License" />
   </a>
 </p>
 
@@ -27,7 +23,7 @@
     <img src="https://img.shields.io/badge/Telegram-Join_Community-24A1DE?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Community" />
   </a>
   <a href="https://github.com/Clash-Projects/LastWave-native/releases">
-    <img src="https://img.shields.io/badge/Release-v3.4.1--native-blue?style=flat-square" alt="Latest Release" />
+    <img src="https://img.shields.io/badge/Download-Universal_APK-blue?style=flat-square" alt="Download APK" />
   </a>
 </p>
 
@@ -35,78 +31,44 @@
 
 <br/>
 
-<div align="center">
-  <img src="Screenshot/screenshot_1.png" width="31%" style="border-radius: 14px; margin: 4px;" />
-  <img src="Screenshot/screenshot_2.png" width="31%" style="border-radius: 14px; margin: 4px;" />
-  <img src="Screenshot/screenshot_3.png" width="31%" style="border-radius: 14px; margin: 4px;" />
-  <br/>
-  <br/>
-  <img src="Screenshot/screenshot_4.png" width="31%" style="border-radius: 14px; margin: 4px;" />
-  <img src="Screenshot/screenshot_5.png" width="31%" style="border-radius: 14px; margin: 4px;" />
-  <img src="Screenshot/screenshot_6.png" width="31%" style="border-radius: 14px; margin: 4px;" />
-</div>
-
-<br/>
-
 ## Overview
 
-**LastWave** is an advanced native Android music streaming and playback application crafted for audiophiles and high-fidelity audio enthusiasts. Built from the ground up with **Kotlin** and a **Custom Native C++ Audio Pipeline**, LastWave delivers uncompressed, bit-perfect **24-bit / 192kHz Studio Master FLAC** reproduction alongside intelligent recommendations, synchronized kinetic typography, and persistent background scrobbling.
-
-The interface is architected according to Google's latest **Material 3 Expressive** design system, combining fluid morphing transitions, dynamic HSL tonal palettes, and tactile haptic feedback.
+Welcome to the official repository for the **LastWave Web Portal**. Designed and developed completely from scratch, this website serves as the landing page, release hub, and interactive technical documentation for **LastWave** — an open-source, high-resolution native music streaming client and player developed for Android 10+.
 
 ---
 
-## Technical Specifications & Architecture
+## Website Structure & Features
 
-| Layer | Technology | Technical Capabilities |
-| :--- | :--- | :--- |
-| **Audio Pipeline** | Custom Native C++ Audio Engine | • Bit-perfect FLAC decoding up to 24-bit / 192kHz<br/>• Direct hardware bitstream output<br/>• Sample-accurate gapless playback<br/>• Low-jitter clock synchronization and low-latency DSP |
-| **User Interface** | Jetpack Compose | • Material 3 Expressive design tokens<br/>• Dynamic wallpaper extraction & custom HSL palette engine<br/>• 60/120 FPS hardware-accelerated fluid motion transitions |
-| **Lyrics Subsystem** | LRCLIB Protocol Integration | • Millisecond-precise synchronized word/line tracking<br/>• 8 physics-based kinetic motion presets (Apple Fluid, Karaoke Pulse, Kinetic Slide) |
-| **Architecture & State** | Clean Architecture (MVI / MVVM) | • Unidirectional data flow with Kotlin Coroutines & StateFlow<br/>• Dagger Hilt dependency injection<br/>• Reactive local persistence via Room DB & DataStore |
-| **Intelligence & Sync** | Discovery & Scrobbler Engine | • Real-time taste profiling, genre DNA decomposition, and mood generation<br/>• System-wide media scrobbling with zero background wake-lock overhead |
+### 1. Landing Page (`/home`)
+- **Hero Section:** High-resolution branding, taglines, and direct download links for the latest Android releases.
+- **Core Feature Highlights:**
+  - **Lossless & Bit-Perfect:** Native Kotlin audio engine with Studio Master FLAC playback up to 24-bit / 192kHz and parametric equalization.
+  - **Kinetic Lyrics & Last.fm:** Real-time LRCLIB syllable synchronization, rich typography animations, and automatic Last.fm scrobbling.
+  - **Free & Open Source:** GPL 3.0 license, zero ads, zero trackers, and offline autonomy.
+- **Team & Credits:** Highlights for developers and community contributors.
 
----
-
-## Key Features
-
-- **Bit-Perfect Lossless Streaming:** Studio Master FLAC reproduction up to 24-bit depth and 192kHz sample rates.
-- **Offline High-Res Library:** Bit-exact local saving to device storage (`Music/LastWave`) with embedded high-resolution artwork, complete ID3/Vorbis metadata, and synchronized `.lrc` lyrics.
-- **Kinetic Synchronized Lyrics:** Real-time millisecond-accurate animated karaoke lyrics with customizable kinetic physics styles.
-- **Dynamic Discovery & Taste Engine:** Algorithmic music recommendation feeds constructed from user listening history, seed tracks, and genre classifications.
-- **Genre DNA Explorer:** Real-time breakdown of listening habits with immediate seed-based radio mix generation.
-- **Universal Background Scrobbler:** Integrated background service listening to active media sessions across any Android audio player without battery penalty.
-- **Expressive Theming:** Wallpaper-derived color harmonies, manual HSL color picker, and dynamic album palette adaptation.
-
----
-
-## Installation
-
-1. Navigate to the **[Releases](https://github.com/Clash-Projects/LastWave-native/releases)** page.
-2. Download the latest signed package (`LastWave-v3.4.1-release.apk`).
-3. Install the APK on your Android device (Android 8.0+ / API 26+).
-4. *(Optional)* Authenticate your Last.fm profile for scrobble tracking and personalized recommendations.
+### 2. Documentation Hub (`/documentation`)
+- **Getting Started:**
+  - *What is LastWave?* Overview of high-res streaming capabilities and app architecture.
+  - *Installation & Setup:* Step-by-step guidance for installing direct APK releases on Android 10+ (API 29+).
+  - *Lossless Audio Configuration:* Audio offload settings, 4096-frame buffer configurations for USB DACs, and ReplayGain setup.
+- **Core Features:**
+  - *Synchronized Lyrics (LRCLIB):* Full-screen lyrics canvas, millisecond timestamp seeking, and ±50ms delay offsetting.
+  - *Last.fm Scrobbling:* Secure token-based authentication for tracking listening habits.
+  - *Equalizer & Volume Boost:* Built-in 10-band parametric EQ with audiophile targets (Harman, Diffuse Field, Acoustic, Bass Boost).
+  - *InnerTubeX Engine:* High-efficiency YouTube Music catalog streaming with local encrypted caching.
+- **System & Optimization:**
+  - *Background Playback & Battery:* Optimization guidelines for uninterrupted background playback.
+  - *Frequently Asked Questions:* Common troubleshooting and setup queries.
 
 ---
 
-## Building from Source
+## Project Structure
 
-### Prerequisites
-- Android Studio Ladybug | 2024.2.1+ or newer
-- JDK 17+
-- Android SDK 35 (API Level 35)
-- Android NDK (r26b or newer)
-
-```bash
-git clone https://github.com/Clash-Projects/LastWave-native.git
-cd LastWave-native
-./gradlew assembleRelease
-```
-
----
-
-## Community & Support
-
-- **Telegram Channel & Discussions:** [Join @clashprojects](https://t.me/clashprojects)
-- **Design & UI Updates:** [Join @MaterialYouApp](https://t.me/MaterialYouApp)
-- **Issue Tracking:** Report bugs and feature requests via the [GitHub Issues](https://github.com/Clash-Projects/LastWave-native/issues) tab.
+```text
+LastWave-Website/
+├── index.html       # Single-page web portal application layout
+├── assets/          # Custom CSS, JS modules, dynamic themes, and UI assets
+├── docs/            # Markdown documentation pages and core guides
+├── README.md        # Repository overview
+└── LICENSE          # GNU General Public License v3.0
